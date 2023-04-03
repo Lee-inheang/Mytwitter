@@ -17,9 +17,9 @@ a{
 }
 
 /*반응형*/
-@media (max-width: 768px){
+@media (max-width: 656px){
     .container{
-        width: 768px;
+        width: 656px;
     }
     .header{
         width: 90px !important;
@@ -189,19 +189,22 @@ p.username{
 }
 
 /*반응형*/
-@media (max-width: 768px){
+@media (max-width: 656px){
     main{
-        width: 678px !important;
+        width: 656px !important;
         margin-left: 90px !important;
     }
     .textbox{
-        width: 620px !important;
+        width: 520px !important;
     }
     main textarea{
-    width: 500px !important;
+    width: 400px !important;
     }
     .selectbox{
-        width: 510px !important;
+        width: 418px !important;
+    }
+    .tweetSelect{
+        width: 400px !important;
     }
 }
 
@@ -296,13 +299,19 @@ main button{
 
 
 /*반응형*/
-@media (max-width: 768px){
+@media (max-width: 656px){
     .timeline{
-     width: 600px !important;
+     width: 500px !important;
 
     }
     .dog{
         width: 50px !important;
+    }
+    .timeline_imoji{
+        width: 400px !important;
+    }
+    .Tcontent{
+        width: 400px !important;
     }
 
 }
@@ -353,7 +362,7 @@ main button{
     font-size: 18px;
     color:#989898;
 }
-@media (max-width: 768px){
+@media (max-width: 656px){
     aside{
      display: none;
     }
